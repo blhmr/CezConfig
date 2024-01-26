@@ -42,7 +42,7 @@ linetype_t cez_get_line_type(const char* line) {
 int cez_open(cezfile_t* cezfile, const char* filename) {
 	strcpy(cezfile->filename, filename);
 
-	cezfile->file = fopen(filename, "r+");
+	cezfile->file = fopen(filename, "w+");
 	if (cezfile->file == NULL) return -1;
 
 	char line[CEZ_MAX_LEN_LINE + 1];
