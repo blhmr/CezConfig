@@ -1,5 +1,5 @@
 # This is a comment
-# Enums for each line are: CEZ_COMMENT, CEZ_BLANK, CEZ_PAIR, CEZ_ERROR
+# Enums for each line are: CEZ_COMMENT, CEZ_BLANK, CEZ_KEY_VALUE_PAIR, CEZ_UNKNOWN
 
 name=hatim
 country=morocco
