@@ -29,6 +29,7 @@ key1=value1
 key2=value2
 
 # Let's use the example in the 'Use case' section
+
 first_name=John
 last_name=Doe
 birth_year=2006
