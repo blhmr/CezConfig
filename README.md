@@ -3,7 +3,7 @@
 CezConfig is a lightweight C library designed for parsing configuration files. It provides basic functions for opening, closing, reading, and manipulating configuration files using a key-value pair format.
 
 ## Use case
-This library is for personal use, therefore it lacks some features other configuration files have, but in return it gives you more speed and optimization.
+This library is for personal use, therefore it lacks some features other configuration files have, so keep your expectations low.
 Example of usage: consider the following folder scheme
 
 ```
