@@ -43,6 +43,10 @@ make install
 # TO DELETE FROM YOUR SYSTEM
 make uninstall
 ```
+Compilation:
+```bash
+gcc your_file.c -o your_file -lcezconfig
+```
 
 ## Constants
 
