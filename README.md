@@ -1,4 +1,4 @@
-# CezConfig Library
+# CezConfig Library [⚙️]
 
 CezConfig is a lightweight C library designed for parsing configuration files. It provides basic functions for opening, closing, reading, and manipulating configuration files using a key-value pair format.
 
