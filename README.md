@@ -2,6 +2,24 @@
 
 CezConfig is a lightweight C library designed for parsing configuration files. It provides basic functions for opening, closing, reading, and manipulating configuration files using a key-value pair format.
 
+## Use case
+This library is for personal use, therefore it lacks some features other databases have, but in return it gives you more speed and optimization.
+Example of usage: consider the following folder scheme
+
+```
+class/
+    student-name1/
+        info.cez (Information about the student)
+        reports/
+        grades/
+        ...
+    student-name2/
+        info.cez
+        reports/
+        grades/
+        ...
+```
+
 ## Constants
 
 - `CEZ_MAX_LEN_KEY`: Maximum length for a configuration key.
