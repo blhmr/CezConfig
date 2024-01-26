@@ -47,5 +47,4 @@ CezConfig is a lightweight C library designed for parsing configuration files. I
 
 ## License
 
-This library is provided under the [MIT License](LICENSE). Feel free to use and modify it in your projects. If you encounter any issues or have suggestions, please open an [issue](https://github.com/yourusername/CezConfig/issues).
-
+This library is provided under the [MIT License](LICENSE). Feel free to use and modify it in your projects.
