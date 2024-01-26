@@ -7,17 +7,34 @@ This library is for personal use, therefore it lacks some features other configu
 Example of usage: consider the following folder scheme
 
 ```
-class/
-    student-name1/
-        info.cez (Information about the student)
-        reports/
-        grades/
-        ...
-    student-name2/
-        info.cez
-        reports/
-        grades/
-        ...
+school/
+├── class-1/
+│   ├── student-1/
+│   │   ├── history.txt
+│   │   ├── grades/
+│   │   └── information.cez <- Informations about the student
+│   ├── student-2/
+│   │   ├── history.txt
+│   │   ├── grades/
+│   │   └── information.cez
+```
+
+## Example
+Go to the examples directory to see how the functions work
+
+## Installation (Unix)
+
+```bash
+git clone https://github.com/blhmr/CezConfig.git
+cd CezConfig
+
+# TO INSTALL
+make install
+
+# You can compile the example code in examples directory
+
+# TO DELETE FROM YOUR SYSTEM
+make uninstall
 ```
 
 ## Constants
@@ -66,3 +83,4 @@ class/
 ## License
 
 This library is provided under the [MIT License](LICENSE). Feel free to use and modify it in your projects.
+

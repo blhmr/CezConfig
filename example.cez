@@ -1,8 +1,7 @@
 # This is a comment
-# Enums for each line are: CEZ_COMMENT, CEZ_BLANK, CEZ_KEY_VALUE_PAIR, CEZ_UNKNOWN
 
 name=hatim
-country=morocco
 age=17
+country=morocco
 city=kenitra
-fav_language=arabic
+last_name=belahmer
