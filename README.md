@@ -96,7 +96,7 @@ gcc your_file.c -o your_file -lcezconfig
 
 ### File Operations
 
-- `cez_open(cezfile_t* cezfile, const char* filename)`: Open a CEZ configuration file and return a `cezfile_t` structure.
+- `cez_open(cezfile_t* cezfile, const char* filename)`: Open a CEZ configuration file.
 - `cez_close(cezfile_t* cezfile)`: Close a CEZ configuration file.
 
 ### Line Operations
