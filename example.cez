@@ -1,0 +1,8 @@
+# This is a comment
+# Enums for each line are: CEZ_COMMENT, CEZ_BLANK, CEZ_PAIR, CEZ_ERROR
+
+name=hatim
+country=morocco
+age=17
+city=kenitra
+fav_language=arabic
