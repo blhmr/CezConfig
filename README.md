@@ -27,6 +27,30 @@ This is a `.cez` file:
 
 key1=value1
 key2=value2
+
+# Let's use the example in the 'Use case' section
+first_name=John
+last_name=Doe
+birth_year=2006
+major=math
+```
+
+Example in C language:
+```c
+#include <cezconfig.h> // Assume you installed the library
+
+int main(void) {
+  cezfile_t file;
+  if (cez_open(&file, "example.cez") != 0) {
+    perror("Error opening file");
+    return -1;
+  }
+
+  cez_insert(&file, "first_name", "John");
+  cez_insert(&file, "last_name", "Doe");
+
+  cez_close(&file);
+}
 ```
 
 ## Installation (Unix)
