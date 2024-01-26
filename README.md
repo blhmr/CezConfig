@@ -20,7 +20,15 @@ school/
 ```
 
 ## Example
-Go to the examples directory to see how the functions work
+Go to the examples directory to see how the functions work.
+This is a `.cez` file:
+```
+ini
+# This is a comment
+
+key1=value1
+key2=value2
+```
 
 ## Installation (Unix)
 
